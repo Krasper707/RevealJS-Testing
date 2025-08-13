@@ -4,9 +4,9 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0" />
   <title>Quarterly Earnings — RevealJS</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/theme/white.css" id="theme">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.8.0/styles/default.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.css?v=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/theme/white.css?v=1" id="theme">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.8.0/styles/default.min.css?v=1">
   <style>
     .chart{height:400px;margin:20px auto;display:flex;align-items:flex-end;justify-content:space-between}
     .chart div{background:#357;color:#fff;text-align:center;padding:8px 0;border-radius:4px}
@@ -20,10 +20,13 @@
         <h1>Q2 — Quarterly Earnings</h1>
         <h3>Interactive stakeholder briefing</h3>
         <p>Contact: <a href="mailto:24f2001293@ds.study.iitm.ac.in">24f2001293@ds.study.iitm.ac.in</a></p>
+        <aside class="notes">Introduce yourself; call out highlights: revenue, EBITDA, guidance.</aside>
+      </section>
+      <section>
+        <p>Contact: <a href="mailto:24f2001293@ds.study.iitm.ac.in">24f2001293@ds.study.iitm.ac.in</a></p>
         <div data-e="email">24f2001293@ds.study.iitm.ac.in</div>
         <span style="display:none;">Email: 24f2001293@ds.study.iitm.ac.in</span>
 
-        <aside class="notes">Introduce yourself; call out highlights: revenue, EBITDA, guidance.</aside>
       </section>
 
       <section data-markdown>
@@ -75,6 +78,10 @@ print(f"5-year CAGR: {simple_cagr(100,180,5):.2%}")
         <p>\[ \mathrm{NPV} = \sum_{t=0}^{T} \dfrac{CF_t}{(1+r)^t} \]</p>
         <p>\[ \mathrm{EBITDA\;Margin} = \dfrac{\mathrm{EBITDA}}{\mathrm{Revenue}} \times 100\% \]</p>
         <aside class="notes">Walk through NPV briefly; mention discount rate choice.</aside>
+        <p>Contact: <a href="mailto:24f2001293@ds.study.iitm.ac.in">24f2001293@ds.study.iitm.ac.in</a></p>
+        <div data-e="email">24f2001293@ds.study.iitm.ac.in</div>
+        <span style="display:none;">Email: 24f2001293@ds.study.iitm.ac.in</span>
+
       </section>
 
       <section id="chart-slide">
@@ -117,13 +124,13 @@ print(f"5-year CAGR: {simple_cagr(100,180,5):.2%}")
   </div>
 
   <script>window.MathJax = { tex: { inlineMath: [['$','$'], ['\\(','\\)']] } };</script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?v=1"></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/markdown/markdown.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/highlight/highlight.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/notes/notes.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/math/math.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.js?v=1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/markdown/markdown.js?v=1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/highlight/highlight.js?v=1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/notes/notes.js?v=1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/math/math.js?v=1"></script>
 
   <script>
     Reveal.initialize({
